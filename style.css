@@ -1,0 +1,177 @@
+html body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("img/fon.jpg");
+    overflow-y: hidden;
+}
+img{
+    width: 135px;
+    height: 200px;
+    border-radius: 25px;
+}
+.desk {
+    position: absolute;
+    top:0;
+    right: 0px;
+    transform: scaleX(-1);
+    
+}
+.hend{
+position: absolute;
+width: 300px;
+height: 600px;
+left: 300px;
+top: 100px;
+}
+.hend>h1{
+    display: none;
+    color: aliceblue;
+}
+.splitHend{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 300px;
+    top: 90%;
+}
+.splitHend>h1{
+    display: block;
+    color: aliceblue;
+}
+.diler{
+position: absolute;
+width: 300px;
+height: 600px;
+left: 900px;
+top: 100px;
+}
+.diler>h1{
+    display: none;
+    color: aliceblue;
+}
+
+.backCard {
+    width: 135px; 
+    height: 200px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateX(var(--offset, 0px));
+}
+
+
+button{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: rgb(184, 181, 181);
+    color: rgb(63, 0, 0);
+}
+.deal {
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    display: none;
+}
+
+.hit {
+    position:absolute;
+    top: 65%;
+    left: 40%;
+    display: none;
+}
+.stand{
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    display: none;
+}
+
+.double {
+    position:absolute;
+    top: 35%;
+    left: 44%;
+    display: none;
+}
+.insure {
+    position: absolute;
+    top: 55%;
+    left: 77%;
+    display: none;
+}
+.bet{
+    position: relative;
+    top: 10%;
+    left: 44%;
+    width: 100px;
+    height: 150px;
+}
+.bet>button{
+    position: absolute;
+    top: 80px;
+    left: -4px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.bet>h1{
+    font-size: 20px;
+    color: aliceblue;
+}
+.cache{
+    position: relative;
+    top: 400px;
+    left: 650px;
+    width: 80px;
+    color: aliceblue;
+   
+}
+.fishki{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 600px;
+    
+}
+.fishka{
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#b1{
+    background-image: url("img/1dollor.png");
+}
+
+#b10{
+    background-image: url("img/10dollor.png");
+}
+
+#b100{
+    background-image: url("img/100dollor.png");
+}
+
+#b500{
+    background-image: url("img/500dollor.png");
+}
+.final{
+    z-index: 100;
+    background-color: bisque;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
