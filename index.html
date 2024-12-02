@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    
+    <div class="desk"></div>
+    
+    <button class="deal"  onclick="deal()">Deal</button>
+    <button class="hit"   onclick="hit()">Hit</button>
+    <button class="stand" onclick="diler()">Stand</button>
+   
+    <button class="double"onclick="double()">Double</button>
+    <button class="insure"onclick="insure()">Insure</button>
+    
+
+    <div class="bet">
+        <h1 id="bet">Your_bet:0$</h1>
+    </div>
+
+    <h1  class="cache">Cache:2000$</h1>
+    
+    <div class="fishki">
+    <button id="b1"  class="fishka"></button>
+    <button id="b10"  class="fishka"></button>
+    <button id="b100"  class="fishka"></button>
+    <button id="b500"  class="fishka"></button>
+    </div>
+
+    <div class="hend">
+    <h1 id="myScore">Your score:</h1>
+    </div>
+    <div class = "splitHend"></div>
+    
+    <div class="diler">
+        <h1 id="dilerScore">Diler score:</h1>
+    </div>
+    <div class="final" onclick ="reset()">
+        <h1 id="result"></h1>
+        <h1 id="new">Click anywhere to continue</h1>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
